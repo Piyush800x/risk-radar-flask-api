@@ -9,6 +9,7 @@ def sort():
     response = request.get_json()
     # print(response)
     data = get_high_critical(response)
+    print(data)
     return jsonify(data)
 
 
